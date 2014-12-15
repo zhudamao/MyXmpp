@@ -1,0 +1,23 @@
+//
+//  MyXmpp.pch
+//  MyXmpp
+//
+//  Created by 朱大茂 on 14/12/3.
+//  Copyright (c) 2014年 zhudm. All rights reserved.
+//
+
+#ifndef MyXmpp_MyXmpp_pch
+#define MyXmpp_MyXmpp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+    #import "Constant.h"
+    #import "iToast.h"
+    #import "MBProgressHUD.h"
+#endif
+
+#endif
